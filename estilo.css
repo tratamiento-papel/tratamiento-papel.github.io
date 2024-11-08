@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3b0f7;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #68478a;
+    color: white;
+}
+
+.bottom-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #8c5fbb;
+    color: white;
+}
+
+.top-bar img {
+    height: 70px;
+}
+
+.top-bar .social-icons a {
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-image {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    display: block; 
+}
+
+.Imagen2 {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    display: block; 
+    position: relative;
+    left: -50px;
+}
+
+.imagen3 {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 20px 0; 
+    border-radius: 8px; 
+    display: block; 
+    position: relative;
+    left: -50px;
+}
+
+.bottom-bar a {
+    color: white;
+    margin-right: 300px;
+    text-decoration: none;
+}
+
+.bottom-bar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    padding: 40px;
+}
+
+.content .text {
+    flex: 1;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+
+h2 {
+    color: #563c71; 
+    margin-bottom: 10px; 
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #A441F0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
